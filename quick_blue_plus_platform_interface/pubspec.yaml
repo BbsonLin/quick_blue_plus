@@ -1,0 +1,20 @@
+name: quick_blue_plus_platform_interface
+description: Platform interface for quick_blue_plus plugin
+version: 1.0.0
+homepage: https://github.com/yourusername/quick_blue_plus
+repository: https://github.com/yourusername/quick_blue_plus/tree/main/quick_blue_plus_platform_interface
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+  logging: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

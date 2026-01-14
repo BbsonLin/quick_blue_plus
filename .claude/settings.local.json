@@ -5,7 +5,9 @@
       "Bash(git config:*)",
       "Bash(tree:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(fvm:*)",
+      "Bash(flutter --version:*)"
     ]
   }
 }

@@ -1,6 +1,7 @@
 name: quick_blue_plus_platform_interface
 description: Platform interface for quick_blue_plus plugin
 version: 1.0.0
+publish_to: none
 homepage: https://github.com/yourusername/quick_blue_plus
 repository: https://github.com/yourusername/quick_blue_plus/tree/main/quick_blue_plus_platform_interface
 

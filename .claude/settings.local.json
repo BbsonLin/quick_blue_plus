@@ -7,7 +7,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(fvm:*)",
-      "Bash(flutter --version:*)"
+      "Bash(flutter --version:*)",
+      "Bash(git tag:*)",
+      "Bash(find:*)"
     ]
   }
 }

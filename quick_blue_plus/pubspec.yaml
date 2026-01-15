@@ -1,0 +1,30 @@
+name: quick_blue_plus
+description: A cross-platform (Android/iOS/macOS/Windows/Linux) Bluetooth Low Energy (BLE) plugin for Flutter, modernized for Flutter 3.24+
+version: 1.0.0
+publish_to: none
+homepage: https://github.com/yourusername/quick_blue_plus
+repository: https://github.com/yourusername/quick_blue_plus
+issue_tracker: https://github.com/yourusername/quick_blue_plus/issues
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quick_blue_plus_platform_interface:
+    path: ../quick_blue_plus_platform_interface
+  quick_blue_plus_windows:
+    path: ../quick_blue_plus_windows
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      windows:
+        default_package: quick_blue_plus_windows
